@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="name" type="xstring" value="Auto-Binner"/>
+<config key="model">
+<config key="targetColumn">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="petal width"/>
+</config>
+<entry key="method" type="xstring" value="fixedNumber"/>
+<entry key="binCount" type="xint" value="1"/>
+<config key="sampleQuantiles">
+<entry key="array-size" type="xint" value="5"/>
+<entry key="0" type="xdouble" value="0.0"/>
+<entry key="1" type="xdouble" value="0.25"/>
+<entry key="2" type="xdouble" value="0.5"/>
+<entry key="3" type="xdouble" value="0.75"/>
+<entry key="4" type="xdouble" value="1.0"/>
+</config>
+<entry key="binNaming" type="xstring" value="edges"/>
+<entry key="replaceColumn" type="xboolean" value="false"/>
+<entry key="includeAll" type="xboolean" value="false"/>
+</config>
+<config key="variables">
+<config key="targetColumn">
+<config key="0">
+<entry key="used_variable" type="xstring" value="colName"/>
+<entry key="exposed_variable" type="xstring" isnull="true" value=""/>
+</config>
+</config>
+<config key="binCount">
+<entry key="used_variable" type="xstring" value="numberOfPoints"/>
+<entry key="exposed_variable" type="xstring" isnull="true" value=""/>
+</config>
+</config>
+<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 267, Cols: 7"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
+</config>
+<config key="port_2">
+<entry key="index" type="xint" value="2"/>
+<entry key="port_spec_class" type="xstring" value="org.knime.base.node.preproc.autobinner.pmml.PMMLDiscretizePreprocPortObjectSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.base.node.preproc.autobinner.pmml.PMMLDiscretizePreprocPortObject"/>
+<entry key="port_object_summary" type="xstring" value="Discretized columns : [petal width [Binned]]%%00010"/>
+<entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
+<entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
+<entry key="port_dir_location" type="xstring" value="port_2"/>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" isnull="true" value=""/>
+</config>
+</config>

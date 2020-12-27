@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="name" type="xstring" value="Data Generator"/>
+<config key="model">
+<entry key="stddeviation" type="xdouble" value="0.1"/>
+<entry key="noise" type="xdouble" value="0.0"/>
+<entry key="patcount" type="xint" value="5400"/>
+<entry key="seed" type="xint" value="840622290"/>
+<config key="clustercount">
+<entry key="array-size" type="xint" value="2"/>
+<entry key="0" type="xint" value="2"/>
+<entry key="1" type="xint" value="2"/>
+</config>
+<config key="unisize">
+<entry key="array-size" type="xint" value="2"/>
+<entry key="0" type="xint" value="2"/>
+<entry key="1" type="xint" value="2"/>
+</config>
+</config>
+<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 5400, Cols: 5"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
+</config>
+<config key="port_2">
+<entry key="index" type="xint" value="2"/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 4, Cols: 4"/>
+<entry key="port_dir_location" type="xstring" value="port_2"/>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="e4807875-c972-419c-9d04-8c31babb0b7e"/>
+</config>
+</config>

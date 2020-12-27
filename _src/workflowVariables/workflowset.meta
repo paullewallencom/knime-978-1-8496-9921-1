@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><KNIMEMetaInfo nrOfElements="3">
+<element form="text" read-only="false" name="Author">Gábor Bakos</element>
+<element form="date" name="Creation Date" read-only="false">30/2/2013</element>
+<element form="multiline" name="Comments" read-only="false">A simple workflow demostrating the usage of workflow variables used also as a report parameter.&#13;
+It requires the KNIME Reporting extension.&#13;
+Based on KNIME - Use of Variables with Reporting (http://youtu.be/RHvVuHsvf0U) video.</element>
+</KNIMEMetaInfo>
